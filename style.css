@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/fundo2000.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box h1{
+    color: rgb(5, 167, 40);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box{
+   width: 300px;
+   padding: 40px;
+   border: 2px solid rgba(3, 138, 32,0.8);
+   background-color: rgb(0, 0, 0);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   
+   border-radius: 25px;
+}
+
+.box button[type="button"],.box input [type="button"]{
+    border: 0;
+    background: none;
+    border: 2px solid #15913a; 
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 14px 10px;
+    width:  200px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box button[type="button"]:hover,.box input [type="button"]:focus{
+    width: 280px;
+    border-color: #14a527;
+}
+
