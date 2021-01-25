@@ -48,3 +48,9 @@ body{
     border-color: #14a527;
 }
 
+img{
+    height: 250px;
+    border: 2px solid rgb(5, 167, 40);
+    border-radius: 25px;
+
+}
